@@ -1,0 +1,53 @@
+body {
+	margin: 0; 
+	padding: 0;
+	background-color: #f2f2f2;
+}
+.container {
+	margin: 0 auto;
+	width: 90%;
+}
+.logo, .nav-bar, .banner ,.side-bar, .bodyarea{
+	width: 100%;
+	min-height: 140px;
+	background: #c0c0c0;
+	
+}
+h1{
+	font-size: 40px;
+	margin:0;
+	text-align: center;
+	padding:40px; 
+}
+.nav-bar{
+	min-height: 100px;
+	margin: 15px 0;
+	
+}
+.banner{
+	height: 300px;
+	margin: 15px 0;
+}
+.banner h1{
+	padding-top: 140px;
+}
+.main {
+	overflow: hidden;
+}
+.side-bar{
+	width: 20%;
+	float: left;
+	height: 500px;
+}
+.bodyarea{
+	width: 78%;
+	float: left;
+	height: 500px;
+	margin-left:24px;
+}
+.side-bar h1{
+	padding-top: 250px;
+}
+.bodyarea h1{
+	padding-top: 250px;
+}
